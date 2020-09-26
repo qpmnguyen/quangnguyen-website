@@ -1,4 +1,7 @@
 ---
+date: "2020-09-26"
+description: Software
+menu: main
 title: "Software"
 ---
 

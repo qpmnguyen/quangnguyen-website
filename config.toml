@@ -46,11 +46,11 @@ weight = 2
 identifier = "software"
 name = "Software"
 url = "/software/"
-weight = 2
+weight = 3
 
 [[menu.primary]]
 identifier = "writings"
 name = "Non-academic Writings"
 url = "/writings/"
-weight = 2
+weight = 4
 
