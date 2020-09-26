@@ -1,7 +1,6 @@
 ---
 date: "2020-09-26"
 description: Research description
-menu: main
 title: Research
 ---
 

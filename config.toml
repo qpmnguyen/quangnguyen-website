@@ -1,56 +1,45 @@
-baseurl = "https://qpmnguyen.netlify.app"
+baseurl = "/"
+languageCode = "en-us"
 title = "Quang P. Nguyen"
-author = "Quang Nguyen"
-canonifyurls = true
-languagecode = "en"
-paginate = 3
-theme = "hugo-renga"
-
-enableEmoji = true
-hasCJKLanguage = true
-
-# googleAnalytics = "UA-00000000-1"
-# disqusShortname = "your-disqus-shortname"
-
+theme = "hugo-lithium"
+googleAnalytics = ""
+disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+[[menu.main]]
+    name = "Research"
+    url = "/research/"
+[[menu.main]]
+    name = "Software"
+    url = "/software/"
+[[menu.main]]
+    name = "Non-academic Writings"
+    url = "/writings/"
+
 [params]
-pagetitle = "Quang Nguyen"
-copyright = "© 2020 Quang Nguyen"
-copyrightUrl = "https://qpmnguyen.netlify.app"
-faviconfile = "image/favicon.png"
-logofile = "image/avatar.jpg"
-posts_navigation = true
-uselatex = true
-highlightjs = true
-progressively = false
+    description = "Quang P. Nguyen's personal website"
 
-github = "qpmnguyen"
-twitter = "quangpmnguyen"
-linkedin = "qpmnguyen"
-email = "quangpmnguyen@gmail.com"
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.12.0"
+    highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
 
-[[menu.primary]]
-identifier = "cv"
-name = "Curriculum Vitae"
-url = "/cv/"
-weight = 1
+    MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    MathJaxVersion = "2.7.5"
 
-[[menu.primary]]
-identifier = "research"
-name = "Research"
-url = "/research/"
-weight = 2
+    # path to the favicon, under "static"
+    favicon = "favicon.ico"
 
-[[menu.primary]]
-identifier = "software"
-name = "Software"
-url = "/software/"
-weight = 3
-
-[[menu.primary]]
-identifier = "writings"
-name = "Non-academic Writings"
-url = "/writings/"
-weight = 4
+    [params.logo]
+    url = "logo.png"
+    width = 50
+    height = 50
+    alt = "Logo"
 
