@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://qpmnguyen.netlify.app"
 languageCode = "en-us"
 title = "Quang P. Nguyen"
 theme = "hugo-lithium"
