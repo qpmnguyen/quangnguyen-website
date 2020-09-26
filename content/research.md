@@ -5,7 +5,7 @@ title: Research
 ---
 
 ### Research topics  
-My research primarily concerns the statistical and bioinformatic analysis of infant gut microbiomes. Some overarching questions include:  
+My research primarily concerns the statistical and bioinformatic analysis of infant gut microbiomes. Some overarching questions include:    
 * How to define functional redundancy in the context of complex microbial communities.  
 * How to leverage external information to perform hypothesis aggregation and variable selection for inferential/predictive tasks relating to microbiome research   
 * Multi-omics analysis of the microbiome.     
