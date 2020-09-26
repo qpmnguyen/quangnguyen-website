@@ -1,4 +1,4 @@
-baseurl = "https://qmnguyen.netlify.app"
+baseurl = "https://qpmnguyen.netlify.app"
 title = "Quang P. Nguyen"
 author = "Quang Nguyen"
 canonifyurls = true
@@ -17,9 +17,9 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [params]
 pagetitle = "Quang Nguyen"
 copyright = "© 2020 Quang Nguyen"
-copyrightUrl = "https://qmnguyen.netlify.app"
+copyrightUrl = "https://qpmnguyen.netlify.app"
 faviconfile = "image/favicon.png"
-logofile = "image/avatar.png"
+logofile = "image/avatar.jpg"
 posts_navigation = true
 uselatex = true
 highlightjs = true
