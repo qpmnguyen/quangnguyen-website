@@ -2,6 +2,7 @@
 date: "2020-09-26"
 description: About description.
 menu: main
+title: CV
 ---
 
 ### Education  
