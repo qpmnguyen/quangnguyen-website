@@ -1,7 +1,7 @@
 ---
 date: "2020-09-26"
 description: Writings
-title: Writings
+title: Non-academic Writings
 ---
 
 Aside from research, I also love to write! I am passionate about science communication, particularly data and numerical literacy. Here are some of my published articles:  

@@ -23,6 +23,19 @@ Experiences (03/2020 - current) - Data Quality Co-lead &amp;amp; Science Communi
     </item>
     
     <item>
+      <title>Non-academic Writings</title>
+      <link>https://qpmnguyen.netlify.app/writings/</link>
+      <pubDate>Sat, 26 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://qpmnguyen.netlify.app/writings/</guid>
+      <description>Aside from research, I also love to write! I am passionate about science communication, particularly data and numerical literacy. Here are some of my published articles:
+Confirmed and Probable COVID-19 Deaths, Counted Two Ways
+Quang P. Nguyen and Kara W. Schechtman
+The COVID Tracking Project at The Atlantic
+We&amp;rsquo;re up to 24 states publishing both confirmed and probable COVID-19 deaths, and we&amp;rsquo;re adding those data points into our API. But states are also using two different ways of deciding which deaths to count as COVID-19 deaths.</description>
+    </item>
+    
+    <item>
       <title>Research</title>
       <link>https://qpmnguyen.netlify.app/research/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:00 +0000</pubDate>
@@ -41,19 +54,6 @@ Experiences (03/2020 - current) - Data Quality Co-lead &amp;amp; Science Communi
       <description>Eddy Covariance Exploration Shiny App
 [Source Code] [Shinyapps.io]
 BIOL 16 is a course that examines fundamental concepts in the rapidly developing areas of ecology. As an part of the DIFUSE program funded by NSF at Dartmouth College, we built an interactive data visualization and analysis tool based on R Shiny for students to explore the eddy covariance technique. Students are able to view data in raw format, interact with different visualizations, as well as being able to use such data to learn about how carbon exchange differs between seasons and time of day.</description>
-    </item>
-    
-    <item>
-      <title>Writings</title>
-      <link>https://qpmnguyen.netlify.app/writings/</link>
-      <pubDate>Sat, 26 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qpmnguyen.netlify.app/writings/</guid>
-      <description>Aside from research, I also love to write! I am passionate about science communication, particularly data and numerical literacy. Here are some of my published articles:
-Confirmed and Probable COVID-19 Deaths, Counted Two Ways
-Quang P. Nguyen and Kara W. Schechtman
-The COVID Tracking Project at The Atlantic
-We&amp;rsquo;re up to 24 states publishing both confirmed and probable COVID-19 deaths, and we&amp;rsquo;re adding those data points into our API. But states are also using two different ways of deciding which deaths to count as COVID-19 deaths.</description>
     </item>
     
   </channel>
