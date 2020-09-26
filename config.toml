@@ -1,0 +1,56 @@
+baseurl = "https://qmnguyen.netlify.app"
+title = "Quang P. Nguyen"
+author = "Quang Nguyen"
+canonifyurls = true
+languagecode = "en"
+paginate = 3
+theme = "hugo-renga"
+
+enableEmoji = true
+hasCJKLanguage = true
+
+# googleAnalytics = "UA-00000000-1"
+# disqusShortname = "your-disqus-shortname"
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[params]
+pagetitle = "Quang Nguyen"
+copyright = "© 2020 Quang Nguyen"
+copyrightUrl = "https://qmnguyen.netlify.app"
+faviconfile = "image/favicon.png"
+logofile = "image/avatar.png"
+posts_navigation = true
+uselatex = true
+highlightjs = true
+progressively = false
+
+github = "qpmnguyen"
+twitter = "quangpmnguyen"
+linkedin = "qpmnguyen"
+email = "quangpmnguyen@gmail.com"
+
+[[menu.primary]]
+identifier = "cv"
+name = "Curriculum Vitae"
+url = "/cv/"
+weight = 1
+
+[[menu.primary]]
+identifier = "research"
+name = "Research"
+url = "/research/"
+weight = 2
+
+[[menu.primary]]
+identifier = "software"
+name = "Software"
+url = "/software/"
+weight = 2
+
+[[menu.primary]]
+identifier = "writings"
+name = "Non-academic Writings"
+url = "/writings/"
+weight = 2
+

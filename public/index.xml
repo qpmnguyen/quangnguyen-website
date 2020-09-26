@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction on Quang P. Nguyen</title>
+    <link>/</link>
+    <description>Recent content in Introduction on Quang P. Nguyen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 26 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>/cv/</link>
+      <pubDate>Sat, 26 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/cv/</guid>
+      <description>Education PhD Candidate in Quantitative Biomedical Sciences, Dartmouth College
+Working Thesis Title: A multi-omics approach to assess functional redundancy in infant gut microbiomes
+B.S. in Biochemistry and Mathematics, Bates College
+Thesis Title: Transcriptomic analysis of the role of transcription factor Nfe2 in zebrafish development
+Honors and Awards 2020 NSF DIFUSE Fellow (Data Science Infused Undergraduate STEM Education)
+2017 Maine INBRE Summer Research Fellow
+Experiences (03/2020 - current) - Data Quality Co-lead &amp;amp; Science Communicator, The COVID Tracking Project at The Atlantic</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/research/</link>
+      <pubDate>Sat, 26 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/research/</guid>
+      <description>Research topics My research primarily concerns the statistical and bioinformatic analysis of infant gut microbiomes. Some overarching questions include:
+ How to define functional redundancy in the context of complex microbial communities. How to leverage external information to perform hypothesis aggregation and variable selection for inferential/predictive tasks relating to microbiome research Multi-omics analysis of the microbiome.  Pre-prints and published manuscripts Multi-omic Characterization of the Taxa-function Relationship in Infant Gut Microbiomes</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/writings/</link>
+      <pubDate>Sat, 26 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/writings/</guid>
+      <description>Aside from research, I also love to write! I am passionate about science communication, particularly data and numerical literacy. Here are some of my published articles:
+Confirmed and Probable COVID-19 Deaths, Counted Two Ways
+Quang P. Nguyen and Kara W. Schechtman
+The COVID Tracking Project at The Atlantic
+We&amp;rsquo;re up to 24 states publishing both confirmed and probable COVID-19 deaths, and we&amp;rsquo;re adding those data points into our API. But states are also using two different ways of deciding which deaths to count as COVID-19 deaths.</description>
+    </item>
+    
+    <item>
+      <title>A Plain Markdown Post</title>
+      <link>/blog/post/hello-markdown/</link>
+      <pubDate>Sat, 10 Nov 2018 12:00:00 -0700</pubDate>
+      
+      <guid>/blog/post/hello-markdown/</guid>
+      <description>This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
+ You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.  There are many differences in syntax between Blackfriday&amp;rsquo;s Markdown and Pandoc&amp;rsquo;s Markdown.</description>
+    </item>
+    
+    <item>
+      <title>Renga Theme Demo</title>
+      <link>/blog/post/hugo-renga-theme-demo/</link>
+      <pubDate>Sat, 10 Nov 2018 12:00:00 +0000</pubDate>
+      
+      <guid>/blog/post/hugo-renga-theme-demo/</guid>
+      <description>Renga is a Bootstrap-based minimalist theme for Hugo.
+Features  Minimalist Responsive &amp;amp; mobile-first (Bootstrap 4) Native font stack High Contrast Math typesetting (MathJaX) Syntax highlighting (highlight.js) Progressive image loading (progressively.js) Disqus Google Analytics Open Graph meta tags Twitter Cards meta tags  Typography h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading  This is bold text
+This is bold text
+This is italic text
+This is italic text</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>/blog/2015-07-23-r-rmarkdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/blog/2015-07-23-r-rmarkdown/</guid>
+      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+    </item>
+    
+    <item>
+      <title>Lorem Ipsum</title>
+      <link>/blog/post/lorem-ipsum/</link>
+      <pubDate>Thu, 01 Jan 2015 13:09:13 -0600</pubDate>
+      
+      <guid>/blog/post/lorem-ipsum/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+In modus congue feugait eos.</description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>/software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/software/</guid>
+      <description>Eddy Covariance Exploration Shiny App
+[Source Code] [Shinyapps.io]
+BIOL 16 is a course that examines fundamental concepts in the rapidly developing areas of ecology. As an part of the DIFUSE program funded by NSF at Dartmouth College, we built an interactive data visualization and analysis tool based on R Shiny for students to explore the eddy covariance technique. Students are able to view data in raw format, interact with different visualizations, as well as being able to use such data to learn about how carbon exchange differs between seasons and time of day.</description>
+    </item>
+    
+  </channel>
+</rss>
