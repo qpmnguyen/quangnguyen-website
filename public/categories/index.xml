@@ -5,6 +5,34 @@
     <link>https://qpmnguyen.netlify.app/categories/</link>
     <description>Recent content in Categories on Quang P. Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://qpmnguyen.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://qpmnguyen.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>introduction</title>
+      <link>https://qpmnguyen.netlify.app/categories/introduction/</link>
+      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://qpmnguyen.netlify.app/categories/introduction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>random</title>
+      <link>https://qpmnguyen.netlify.app/categories/random/</link>
+      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://qpmnguyen.netlify.app/categories/random/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>thoughts</title>
+      <link>https://qpmnguyen.netlify.app/categories/thoughts/</link>
+      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://qpmnguyen.netlify.app/categories/thoughts/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

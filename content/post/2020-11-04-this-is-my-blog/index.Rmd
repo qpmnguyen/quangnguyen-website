@@ -1,0 +1,15 @@
+---
+title: Welcome to my blog!
+author: Quang Nguyen
+date: '2020-11-04'
+slug: this-is-my-blog
+categories:
+  - introduction
+  - thoughts
+  - random
+tags:
+  - text
+  - thoughts
+---
+
+This is my personal blog! I have decided to attach this to my website since I don't intend to blog too much outside of some side projects that I have or some random thoughts. I most likely blog about statistics and data science in general! Stay tuned for some pieces. 

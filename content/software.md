@@ -5,7 +5,7 @@ title: Software
 ---
 
 **Eddy Covariance Exploration Shiny App**  
-[[Source Code](https://github.com/qpmnguyen/DIFUSE_2020_EddyCovariance)] [[Shinyapps.io](https://qpmnguyen.shinyapps.io/difuse_2020_eddycovariance/)]   
+[[Source Code](https://github.com/difuse-dartmouth/DIFUSE_2020_EddyCovariance)] [[Shinyapps.io](https://qpmnguyen.shinyapps.io/difuse_2020/)]   
 BIOL 16 is a course that examines fundamental concepts in the rapidly developing areas of ecology. As an part of the DIFUSE program funded by NSF at Dartmouth College, we built an interactive data visualization and analysis tool based on R Shiny for students to explore the eddy covariance technique. Students are able to view data in raw format, interact with different visualizations, as well as being able to use such data to learn about how carbon exchange differs between seasons and time of day.  
  
 

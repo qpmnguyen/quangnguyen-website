@@ -21,6 +21,9 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [[menu.main]]
     name = "Non-academic Writings"
     url = "/writings/"
+[[menu.main]]
+    name = "Blog"
+    url = "/post/"
 
 [params]
     description = "Quang P. Nguyen's personal website"
