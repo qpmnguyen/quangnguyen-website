@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.75.1" />
+
+
+<title>Forecasting presidential election using Elo Ratings - Quang P. Nguyen</title>
+<meta property="og:title" content="Forecasting presidential election using Elo Ratings - Quang P. Nguyen">
+
+
+  <link href='https://qpmnguyen.netlify.app/imgs/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="/writings/">Non-academic Writings</a></li>
+    
+    <li><a href="/research/">Research</a></li>
+    
+    <li><a href="/side-projects/">Side Projects</a></li>
+    
+    <li><a href="/software/">Software</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">3 min read</span>
+    
+
+    <h1 class="article-title">Forecasting presidential election using Elo Ratings</h1>
+
+    
+    <span class="article-date">2020-11-07</span>
+    
+
+    <div class="article-content">
+      <p>The elo rating system is a method developed by <a href="https://en.wikipedia.org/wiki/Arpad_Elo">Arpad Elo</a> as a way to rank players in a zero sum game. Elo has been used in various contexts, particuarly notable in chess and more recently, competitive online games. A really nice attribute about Elo is that a difference in scores can be translated to a probability, through the formula:</p>
+<p>$$E_A = \frac{1}{1 + 10^{R_A - R_B}}$$</p>
+<p>where EA is the expected score of player A with rank $$R_A$$ playing against player $$B$$ of rank $$R_B$$<br>
+This is equivalent to applying the logistic function to a recaled version of the difference in rankings</p>
+<p>$$logistic\left(\frac{\log(10)}{400} (R_A - R_B)\right)$$</p>
+<p>This ensures that the expected values for players A and B are bounded between 0 and 1 and hence acts as probabilities.</p>
+<p>In an elo model, after each match, the rankings are updated as:</p>
+<p>$$R_{A_{new}} = R_A + K * (\text{outcome} - E_A)$$</p>
+<p>where K is the K-factor controlling the relative gains and losses of elo points.</p>
+<p>The US presidential election is the perfect place to test the elo theory since there is usually 2 candidates who campaigns for a long period of time with lots of polling data. The winner is determined through the electoral college, which follows a winner-take-all system. This further makes the US presidential election closer to a sports match.</p>
+<p>In this instance, we decided to use the elo system to model the probability of winning an election. We take the weekly average of polls to act as &quot;games&quot; that then culiminate in a showdown on November 3rd. After each weekly poll, the candidate gains or lose elo based on the elo model presented above. Some <strong>major caveats:</strong></p>
+<ul>
+<li>First, this is obviously not considering any fundamental of election forecasting, such as the inclusion of demographic and economical variables as well as state-by-state correlation.</li>
+<li>Second, this model does not incorporate any outside knowledge other than the way FiveThirtyEight weights the polls (we use average polling data from the site).</li>
+<li>Third, the model really preferences candidates who are polling well consistently, and rewards them with higher probability of winning. We think this is a pretty good model considering that close polling reduce the gains in elo and narrows the proability of winning, and sudden losses in polling numbers also contribute towards a candidate&rsquo;s poor showing. However, this is very non-traditional and not really an apt approach towards proper modelling of an election.</li>
+</ul>
+<p>Considering those aspects, we further considered some modifications to the model.</p>
+<ul>
+<li>First, we seeded inital elo based on election results from the 2016 election. using 1000 elo as a baseline, we subtract or add points to candidate&rsquo;s starting elo based on how they (or the candidate belonging to their party) performed previously. We call this our priors.</li>
+<li>Second, we incorporate margin of victory into our elo update calculation by modifying the K-factor. This is a simple linear adjustment $$K_{eff} = K * mov$$ where $$mov$$ is the margin of victory. This means that the &quot;winning&quot; candidate will gain points as a proportion of K that is equal to their margin of polling victory. As such, we increase values of K significantly to compensate for the low gains in elo when margins can be 1 percent.</li>
+<li>Finally, we perform elo modelling at the state level, then use those probabilities to randomly draw a number of simulations based on a Bernoulli process. We calculate the final probability of winning as the number of simulations where a focal candidate (in this case Biden) gains 270 or more Electoral Votes.</li>
+</ul>
+<p>All modeling was done in Julia. Side note: Pluto.jl is an amazing notebook system and probably going to be the way to go when it comes to the next generation of data notebooks (Sorry Jupyter). You can access the <em>interactive</em> Pluto.jl notebook (with the same text above) <a href="">at this link</a>.</p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+

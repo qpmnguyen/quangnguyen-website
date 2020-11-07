@@ -8,6 +8,17 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 26 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://qpmnguyen.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Forecasting presidential election using Elo Ratings</title>
+      <link>https://qpmnguyen.netlify.app/2020/11/07/forecasting-presidential-election-using-elo-ratings/</link>
+      <pubDate>Sat, 07 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://qpmnguyen.netlify.app/2020/11/07/forecasting-presidential-election-using-elo-ratings/</guid>
+      <description>The elo rating system is a method developed by Arpad Elo as a way to rank players in a zero sum game. Elo has been used in various contexts, particuarly notable in chess and more recently, competitive online games. A really nice attribute about Elo is that a difference in scores can be translated to a probability, through the formula:
+$$E_A = \frac{1}{1 + 10^{R_A - R_B}}$$
+where EA is the expected score of player A with rank $$R_A$$ playing against player $$B$$ of rank $$R_B$$</description>
+    </item>
+    
+    <item>
       <title>Welcome to my blog!</title>
       <link>https://qpmnguyen.netlify.app/2020/11/04/this-is-my-blog/</link>
       <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
@@ -63,6 +74,17 @@ We&amp;rsquo;re up to 24 states publishing both confirmed and probable COVID-19 
       <description>Eddy Covariance Exploration Shiny App
 [Source Code] [Shinyapps.io]
 BIOL 16 is a course that examines fundamental concepts in the rapidly developing areas of ecology. As an part of the DIFUSE program funded by NSF at Dartmouth College, we built an interactive data visualization and analysis tool based on R Shiny for students to explore the eddy covariance technique. Students are able to view data in raw format, interact with different visualizations, as well as being able to use such data to learn about how carbon exchange differs between seasons and time of day.</description>
+    </item>
+    
+    <item>
+      <title>Side Projects</title>
+      <link>https://qpmnguyen.netlify.app/side-projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qpmnguyen.netlify.app/side-projects/</guid>
+      <description>Forecasting presidential elections using Elo rankings
+[Source Code] [Pluto.jl] [Write up]
+In this semi-serious project, I explore Elo rankings and their probabilistic interpretations as a way to predict Presidential Elections. Specifically, I use each weekly poll as a &amp;ldquo;game&amp;rdquo; that each candidate can gain or lose elo. Elo gains and losses are scaled to the margin of victory, and priors from the 2016 election are added. An interactive Pluto.jl notebook is provided (set up will take very long unfortunately).</description>
     </item>
     
   </channel>

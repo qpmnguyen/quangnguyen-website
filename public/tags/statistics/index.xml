@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Quang P. Nguyen</title>
-    <link>https://qpmnguyen.netlify.app/post/</link>
-    <description>Recent content in Posts on Quang P. Nguyen</description>
+    <title>statistics on Quang P. Nguyen</title>
+    <link>https://qpmnguyen.netlify.app/tags/statistics/</link>
+    <description>Recent content in statistics on Quang P. Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://qpmnguyen.netlify.app/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://qpmnguyen.netlify.app/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Forecasting presidential election using Elo Ratings</title>
       <link>https://qpmnguyen.netlify.app/2020/11/07/forecasting-presidential-election-using-elo-ratings/</link>
@@ -16,15 +16,6 @@
       <description>The elo rating system is a method developed by Arpad Elo as a way to rank players in a zero sum game. Elo has been used in various contexts, particuarly notable in chess and more recently, competitive online games. A really nice attribute about Elo is that a difference in scores can be translated to a probability, through the formula:
 $$E_A = \frac{1}{1 + 10^{R_A - R_B}}$$
 where EA is the expected score of player A with rank $$R_A$$ playing against player $$B$$ of rank $$R_B$$</description>
-    </item>
-    
-    <item>
-      <title>Welcome to my blog!</title>
-      <link>https://qpmnguyen.netlify.app/2020/11/04/this-is-my-blog/</link>
-      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qpmnguyen.netlify.app/2020/11/04/this-is-my-blog/</guid>
-      <description>This is my personal blog! I have decided to attach this to my website since I don’t intend to blog too much outside of some side projects that I have or some random thoughts. I most likely blog about statistics and data science in general! Stay tuned for some pieces.</description>
     </item>
     
   </channel>
