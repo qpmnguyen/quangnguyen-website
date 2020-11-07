@@ -13,7 +13,7 @@
       <pubDate>Sat, 07 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://qpmnguyen.netlify.app/2020/11/07/forecasting-presidential-election-using-elo-ratings/</guid>
-      <description>The elo rating system is a method developed by Arpad Elo as a way to rank players in a zero sum game. Elo has been used in various contexts, particuarly notable in chess and more recently, competitive online games. A really nice attribute about Elo is that a difference in scores can be translated to a probability, through the formula:
+      <description>The elo rating system is a method developed by Arpad Elo as a way to rank players in a zero sum game. Elo has been used in various contexts, particularly notable in chess and more recently, competitive online games. A really nice attribute about Elo is that a difference in scores can be translated to a probability, through the formula:
 $$E_A = \frac{1}{1 + 10^{R_A - R_B}}$$
 where EA is the expected score of player A with rank $$R_A$$ playing against player $$B$$ of rank $$R_B$$</description>
     </item>
