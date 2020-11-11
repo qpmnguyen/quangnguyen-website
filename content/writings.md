@@ -4,7 +4,12 @@ description: Writings
 title: Non-academic Writings
 ---
 
-Aside from research, I also love to write! I am passionate about science communication, particularly data and numerical literacy. Here are some of my published articles:  
+Aside from research, I also love to write! I am passionate about science communication, particularly data and numerical literacy. Here are some of my published articles:   
+
+[*The State of State Antigen Test Reportings*](https://covidtracking.com/blog/antigen-testing-reporting)  
+By Betsy Ladyzhets and **Quang P. Nguyen**   
+*The COVID Tracking Project at The Atlantic*  
+Antigen tests are becoming a major tool for rapid COVID-19 testing. But if states don’t report results clearly, we won’t know the true impact of these tests.  
 
 [*Confirmed and Probable COVID-19 Deaths, Counted Two Ways*](https://covidtracking.com/blog/confirmed-and-probable-covid-19-deaths-counted-two-ways)  
 **Quang P. Nguyen** and Kara W. Schechtman  
