@@ -78,7 +78,7 @@
 This is equivalent to applying the logistic function to a rescaled version of the difference in rankings<br>
 $$logistic\left(\frac{\log(10)}{400} (R_A - R_B)\right)$$</p>
 <p>The above is the most common formulation of Elo. Through the logistic function, the expected values for players A and B are bounded between 0 and 1 and hence can act as probababilities.</p>
-<p>In an elo model, after each match, the rankings are updated as: $$R_{A_{new}} = R_A + K * (\text{outcome} - E_A)$$</p>
+<p>In an elo model, after each match, the rankings are updated as: $$R_{A_{new}} = R_A + K * (outcome - E_A)$$</p>
 <p>where K is the K-factor controlling the relative gains and losses of elo points.</p>
 <p>The US presidential election is a surprisingly appropriate context to use elo. In this election, two candidates compete for the &ldquo;title&rdquo; of the President of the United States. Polling data is collected regularly, which can act as &ldquo;matches&rdquo; where the two candidates can test their &ldquo;mettle&rdquo; before the final election day. Furthermore, the structure of the election, a winner-take-all Electoral College system, makes it even closer to being a sports match.</p>
 <p>In this instance, elo system is applied to model the probability of winning an election. Weekly average polling results are used as proxy for &ldquo;games&rdquo;. After each weekly poll, the candidate gains or lose elo based on whether they win or lose (polling average &gt; 50%) and how much did they win (or lose) by. Some <strong>major caveats and assumptions:</strong></p>

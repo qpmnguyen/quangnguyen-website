@@ -23,7 +23,7 @@ $$logistic\left(\frac{\log(10)}{400} (R_A - R_B)\right)$$
 
 The above is the most common formulation of Elo. Through the logistic function, the expected values for players A and B are bounded between 0 and 1 and hence can act as probababilities.  
 
-In an elo model, after each match, the rankings are updated as: $$R_{A_{new}} = R_A + K * (\text{outcome} - E_A)$$   
+In an elo model, after each match, the rankings are updated as: $$R_{A_{new}} = R_A + K * (outcome - E_A)$$   
 
 where K is the K-factor controlling the relative gains and losses of elo points. 
 
