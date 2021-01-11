@@ -8,25 +8,6 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 26 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://qpmnguyen.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Forecasting presidential election using Elo Ratings</title>
-      <link>https://qpmnguyen.netlify.app/2020/11/07/forecasting-presidential-election-using-elo-ratings/</link>
-      <pubDate>Sat, 07 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qpmnguyen.netlify.app/2020/11/07/forecasting-presidential-election-using-elo-ratings/</guid>
-      <description>[Source Code]
-The elo rating system is a method developed by Arpad Elo in order to rank players by ability in a zero sum game. Elo has been used in various contexts, most famously the way to rank chess players through the UCSF and FIDE systems. Elo has been used in modern contexts as well, from Tinder to World of Warcraft. A really nice attribute about Elo is that a difference in scores can be translated to a probability, through the formula:</description>
-    </item>
-    
-    <item>
-      <title>Welcome to my blog!</title>
-      <link>https://qpmnguyen.netlify.app/2020/11/04/this-is-my-blog/</link>
-      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qpmnguyen.netlify.app/2020/11/04/this-is-my-blog/</guid>
-      <description>This is my personal blog! I have decided to attach this to my website since I don’t intend to blog too much outside of some side projects that I have or some random thoughts. I most likely blog about statistics and data science in general! Stay tuned for some pieces.</description>
-    </item>
-    
-    <item>
       <title>About</title>
       <link>https://qpmnguyen.netlify.app/about/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:00 +0000</pubDate>

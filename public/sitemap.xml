@@ -3,81 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://qpmnguyen.netlify.app/categories/</loc>
-    <lastmod>2020-11-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://qpmnguyen.netlify.app/categories/elections/</loc>
-    <lastmod>2020-11-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://qpmnguyen.netlify.app/2020/11/07/forecasting-presidential-election-using-elo-ratings/</loc>
-    <lastmod>2020-11-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://qpmnguyen.netlify.app/post/</loc>
-    <lastmod>2020-11-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://qpmnguyen.netlify.app/categories/predictive-models/</loc>
-    <lastmod>2020-11-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://qpmnguyen.netlify.app/tags/projects/</loc>
-    <lastmod>2020-11-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://qpmnguyen.netlify.app/categories/sports-statistics/</loc>
-    <lastmod>2020-11-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://qpmnguyen.netlify.app/tags/statistics/</loc>
-    <lastmod>2020-11-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://qpmnguyen.netlify.app/tags/</loc>
-    <lastmod>2020-11-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://qpmnguyen.netlify.app/categories/introduction/</loc>
-    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://qpmnguyen.netlify.app/categories/random/</loc>
-    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://qpmnguyen.netlify.app/tags/text/</loc>
-    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://qpmnguyen.netlify.app/tags/thoughts/</loc>
-    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://qpmnguyen.netlify.app/categories/thoughts/</loc>
-    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://qpmnguyen.netlify.app/2020/11/04/this-is-my-blog/</loc>
-    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://qpmnguyen.netlify.app/about/</loc>
     <lastmod>2020-09-26T00:00:00+00:00</lastmod>
   </url>
@@ -103,7 +28,15 @@
   </url>
   
   <url>
+    <loc>https://qpmnguyen.netlify.app/categories/</loc>
+  </url>
+  
+  <url>
     <loc>https://qpmnguyen.netlify.app/side-projects/</loc>
+  </url>
+  
+  <url>
+    <loc>https://qpmnguyen.netlify.app/tags/</loc>
   </url>
   
 </urlset>

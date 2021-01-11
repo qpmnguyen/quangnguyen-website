@@ -5,61 +5,6 @@
     <link>https://qpmnguyen.netlify.app/categories/</link>
     <description>Recent content in Categories on Quang P. Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 07 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://qpmnguyen.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>elections</title>
-      <link>https://qpmnguyen.netlify.app/categories/elections/</link>
-      <pubDate>Sat, 07 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qpmnguyen.netlify.app/categories/elections/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>predictive models</title>
-      <link>https://qpmnguyen.netlify.app/categories/predictive-models/</link>
-      <pubDate>Sat, 07 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qpmnguyen.netlify.app/categories/predictive-models/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>sports statistics</title>
-      <link>https://qpmnguyen.netlify.app/categories/sports-statistics/</link>
-      <pubDate>Sat, 07 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qpmnguyen.netlify.app/categories/sports-statistics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>introduction</title>
-      <link>https://qpmnguyen.netlify.app/categories/introduction/</link>
-      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qpmnguyen.netlify.app/categories/introduction/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>random</title>
-      <link>https://qpmnguyen.netlify.app/categories/random/</link>
-      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qpmnguyen.netlify.app/categories/random/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>thoughts</title>
-      <link>https://qpmnguyen.netlify.app/categories/thoughts/</link>
-      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qpmnguyen.netlify.app/categories/thoughts/</guid>
-      <description></description>
-    </item>
-    
+    <language>en-us</language><atom:link href="https://qpmnguyen.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
