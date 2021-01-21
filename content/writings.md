@@ -4,7 +4,12 @@ description: Writings
 title: Non-academic Writings
 ---
 
-Aside from research, I also love to write! I am passionate about science communication, particularly data and numerical literacy. Here are some of my published articles:   
+Aside from research, I also love to write! I am passionate about science communication, particularly data and numerical literacy. Here are some of my published articles:     
+
+[*We Don’t Know How Many People Have Recovered From COVID-19*](https://www.theatlantic.com/health/archive/2021/01/how-many-have-recovered-covid-19-we-dont-know/617679/)  
+By Amanda French and **Quang P. Nguyen**  
+*The Atlantic*   
+Recovery has no standard definition, and some states, including California and Florida, do not report such data at all.  
 
 [*As North Dakota’s Deaths Metrics Diverge, We’re Switching to a Less Backlogged Measure of Fatalities*](https://covidtracking.com/blog/north-dakota-deaths-backlog)  
 By Kara W. Schechtman, **Quang P. Nguyen**, and Joseph Bensimon  
