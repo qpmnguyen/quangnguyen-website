@@ -4,8 +4,8 @@ description: Website description.
 title: Introduction
 ---
 
-<img src="/imgs/Quang.jpg" alt="Kitten"
-	title="A cute kitten" width="100" height="125" />
+<img src="/imgs/Quang.jpg" alt="photo"
+	title="headshot" width="150" height="187.5" />
 
 My name is Quang Nguyen and I am currently a graduate student in the Quantitative Biomedical Science program at Dartmouth College.  
 
