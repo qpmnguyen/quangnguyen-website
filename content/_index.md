@@ -4,6 +4,9 @@ description: Website description.
 title: Introduction
 ---
 
+<img src="/imgs/Quang.jpg" alt="Kitten"
+	title="A cute kitten" width="150" height="100" />
+
 My name is Quang Nguyen and I am currently a graduate student in the Quantitative Biomedical Science program at Dartmouth College.  
 
 I am a computational biologist, focusing on developing statistical and bioinformatic tools to investigate features of the infant gut microbiome, and how it relates to early life exposures and health outcomes. 
